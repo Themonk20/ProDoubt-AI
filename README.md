@@ -221,10 +221,4 @@ B.Tech, IIT Roorkee
 
 GitHub: https://github.com/Themonk20
 
-LinkedIn: *(Add your LinkedIn profile here)*
 
----
-
-## ⭐ If you found this project interesting
-
-Please consider giving it a ⭐ on GitHub!
