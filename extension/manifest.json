@@ -1,0 +1,38 @@
+{
+
+    "manifest_version" : 3,
+    "name": "ProDoubt" ,
+    "version": "0.1.0" ,
+    "description": " Ask questions about your product on the screen " ,
+
+    "permissions" :
+    [
+    "activeTab",
+    "scripting" 
+    ],
+
+    "icons" : {
+        "128" : "logo.png"
+
+    },
+
+"host permissions": ["<all_urls>"] ,
+"action" : 
+{
+    "default_popup" : "popup.html"
+},
+
+"content_scripts" : 
+[
+    {
+        "matches" : ["<all_urls>"],
+        "js" : ["content.js"]
+    }
+]
+
+
+
+
+
+
+}

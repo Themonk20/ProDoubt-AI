@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+**/venv/
+
+# Environment variables
+.env
+**/.env
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Vector databases
+backend/faiss_index/
+backend/chroma_db/
